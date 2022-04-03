@@ -34,35 +34,33 @@ img {
 #k1 {
     top: 10%;
     left: 30%;
-    transform: rotate(20deg);
-
 }
 
 #k2 {
     bottom: 15%;
     left: 20%;
-    transform: rotate(10deg);
+    
 }
 
 #k3 {
     top: 10%;
     right: 10%;
-    transform: rotate(30deg);
+    
 }
 
 #k4 {
     top: 50%;
     right: 50%;
-    transform: translate(50%, -50%) rotate(-25deg);
+    
 }
 
 #k5 {
     top: 12%;
     left: 5%;
-    transform: rotate(-5deg);
+    
 }
 
-#k1:hover {
-    transform: scale(2);
-    z-index: 500;
+#k6 {
+    top: 14%;
+    left: 54%;
 }
