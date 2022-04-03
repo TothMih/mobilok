@@ -7,8 +7,8 @@ h1 {
 }
 
 #tarolo {
-    width: 75%;
-    height: 600px;
+    width: 90%;
+    height: 1500px;
     border: 1px solid black;
     margin: 20px auto 0;
     position: relative;
@@ -32,37 +32,35 @@ img {
 }
 
 #k1 {
-    top: 10%;
-    left: 30%;
-    transform: rotate(20deg);
-
+    top: 5%;
+    left: 10%;
 }
 
 #k2 {
-    bottom: 15%;
-    left: 20%;
-    transform: rotate(10deg);
+    bottom: 5%;
+    left: 10%;
+    
 }
 
 #k3 {
     top: 10%;
     right: 10%;
-    transform: rotate(30deg);
+    
 }
 
 #k4 {
     top: 50%;
     right: 50%;
-    transform: translate(50%, -50%) rotate(-25deg);
+    
 }
 
 #k5 {
     top: 12%;
     left: 5%;
-    transform: rotate(-5deg);
+    
 }
 
-#k1:hover {
-    transform: scale(2);
-    z-index: 500;
+#k6 {
+    top: 14%;
+    left: 54%;
 }
