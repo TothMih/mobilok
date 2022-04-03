@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tarolo {
+    width: 75%;
+    height: 600px;
+    border: 1px solid black;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+
+.kartyak {
+    width: 250px;
+    background-color: cornsilk;
+    padding: 4px;
+    box-shadow: 0 5px 8px gray;
+    margin-bottom: 10px;
+    position: absolute;
+}
+img {
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+#k1 {
+    top: 10%;
+    left: 30%;
+    transform: rotate(20deg);
+
+}
+
+#k2 {
+    bottom: 15%;
+    left: 20%;
+    transform: rotate(10deg);
+}
+
+#k3 {
+    top: 10%;
+    right: 10%;
+    transform: rotate(30deg);
+}
+
+#k4 {
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%) rotate(-25deg);
+}
+
+#k5 {
+    top: 12%;
+    left: 5%;
+    transform: rotate(-5deg);
+}
+
+#k1:hover {
+    transform: scale(2);
+    z-index: 500;
+}
